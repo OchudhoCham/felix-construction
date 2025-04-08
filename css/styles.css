@@ -487,6 +487,20 @@ h1, h2, h3 {
     float: left;
 }
 
+/* Default hamburger icon style */
+.menu-toggle {
+  font-size: 30px;
+  cursor: pointer;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When the menu is expanded, change to "X" */
+.menu-toggle.active {
+  content: "×";  /* This changes the icon to "X" */
+}
+
+
 /* Logo remains on the left side */
 .logo {
     height: 40px;
