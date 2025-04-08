@@ -1,8 +1,3 @@
-// js/script.js
-
-document.querySelector('.btn').addEventListener('click', () => {
-    alert("We'll get in touch with you soon!");
-  });
   
   // Get the menu toggle button and navbar
 const menuToggle = document.querySelector('.menu-toggle');
